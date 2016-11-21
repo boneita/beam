@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 519 157.5" style="enable-background:new 0 0 519 157.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{font-family:'OpenSans-Light';}
+	.st2{font-size:150.1315px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.3699" y1="157.3662" x2="18.3699" y2="86.1071" gradientTransform="matrix(6.123234e-17 1 -1 6.123234e-17 174.5031 62.2111)">
+	<stop  offset="0" style="stop-color:#AA0004"/>
+	<stop  offset="0.133" style="stop-color:#FFB100"/>
+	<stop  offset="0.2371" style="stop-color:#FEFF2A"/>
+	<stop  offset="0.4323" style="stop-color:#009416"/>
+	<stop  offset="0.652" style="stop-color:#0007D4"/>
+	<stop  offset="0.7993" style="stop-color:#0091E9"/>
+	<stop  offset="1" style="stop-color:#A215FF"/>
+</linearGradient>
+<polygon class="st0" points="17.1,81 88.3,23.6 88.4,53 32,81 88.4,61.1 88.4,99 32,81 88.4,106.4 88.4,137.6 "/>
+<text transform="matrix(1 0 0 1 88.396 133.9865)" class="st1 st2">BEAM</text>
+</svg>

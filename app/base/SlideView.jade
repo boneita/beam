@@ -1,0 +1,6 @@
+.SlideView(style="background: {style.background}")#slideView
+	div(if="{!slide.title}")
+		h1.dim Please Select a slide
+	div(if="{slide.title}")
+		h1 {slide.title}
+		p(style="{slide.contentStyle}") {slide.content} {contentStyle}
