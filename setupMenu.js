@@ -8,9 +8,9 @@ let template;
 const manage = (mainWindow) => {
   if (process.platform === 'darwin') {
     template = [{
-      label: 'Electron',
+      label: 'Beam',
       submenu: [{
-        label: 'About ElectronReact',
+        label: 'About Beam',
         selector: 'orderFrontStandardAboutPanel:'
       }, {
         type: 'separator'
@@ -20,7 +20,7 @@ const manage = (mainWindow) => {
       }, {
         type: 'separator'
       }, {
-        label: 'Hide ElectronReact',
+        label: 'Hide Beam',
         accelerator: 'Command+H',
         selector: 'hide:'
       }, {

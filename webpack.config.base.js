@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   module: {
     loaders: [{
-      test: /\.jsx?$/,
+      test: /\.js?$/,
       loaders: ['babel-loader'],
       exclude: /node_modules/
     }, {

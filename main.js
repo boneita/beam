@@ -27,12 +27,28 @@ app.on('window-all-closed', () => {
 });
 
 
+require('electron-context-menu')({
+    prepend: params => [{
+    label: 'Rainbow',
+    // only show it when right-clicking images
+    visible: params.mediaType === 'image'
+  }]
+});
+
 app.on('ready', () => {
   // BrowserWindow.addDevToolsExtension('node_modules/remotedev-extension/dist');
 
   // Main Window
-  mainWindow = new BrowserWindow({ width: 1024, height: 728 });
+  mainWindow = new BrowserWindow({
+    width: 1024,
+    height: 728,
+    title: 'Beam',
+    // frame: false,
+    // resizable: false,
+    // transparent: true,
+  });
   mainWindow.loadURL(`file://${__dirname}/app/app.html`);
+  mainWindow.setTitle('YOW');
 
   mainWindow.on('closed', () => {
     mainWindow = null;
